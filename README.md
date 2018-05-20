@@ -25,7 +25,7 @@ Here is a bar chart visulization of number of traffic signs for each classes
 
 Here I have displayed sample traffic signs from various classes.
 
-![sign_visu.png](attachment:sign_visu.png)
+![sign_visu.png](attachment:examples/sign_visu.png)
 
 
 * In first visulization we can see that training set is distributed propperly for various classes.
