@@ -20,7 +20,7 @@ signs data set:
 
 Here is a bar chart visulization of number of traffic signs for each classes
 
-![bar_visual.png](attachment:bar_visual.png)
+![bar_visual.png](examples/bar_visual.png)
 
 
 Here I have displayed sample traffic signs from various classes.
@@ -45,7 +45,7 @@ Here I have displayed sample traffic signs from various classes.
 
 RGB            |  YIQ
 :-------------------------:|:-------------------------:
-![before_prepros.png](attachment:before_prepros.png) | ![after_prepros.png](attachment:after_prepros.png)
+![before_prepros.png](examples/before_prepros.png) | ![after_prepros.png](examples/after_prepros.png)
 
 * As we can see here hogh intensity colors are luminated, and darker images stays same. Here YIQ with smaller range seems to represent data as good as RGB specially when color of signs doesn't matter.
 
@@ -87,7 +87,7 @@ My final model consisted of the following layers:
 * While training I plotted accuracy graph of training and validation dataset. From these graph parameters can be tuned. 
 * For example if accuracy is improving too fast at the begining and then if it doesn't improve much, it means that learning rate is high and we can tune that. Too much fluctuation in accuracy since begining also suggests that we should reduce learning rate.
 
-![accuracy_graph.png](attachment:accuracy_graph.png)
+![accuracy_graph.png](examples/accuracy_graph.png)
 
 * Here blue(+) represents training accuracy and red(o) represents validation accuracy.
 * From this graph I was able to figure out a point where model stops improving accuracy. Also from the curve 0.02 learning rate and 40 epochs seems good.
@@ -116,7 +116,7 @@ Architecture selection:
 
 * Here are eight signs which I have tested on my model
 
-![new_sign.png](attachment:new_sign.png)
+![new_sign.png](examples/new_sign.png)
 
 * Here first sign in second row is not present in original data set, rest of these signs are present.
 
@@ -144,5 +144,5 @@ The code for making predictions on my final model is located in the 34, 35 and 3
 
 Here I have displayed all images with top prediction and top five softmax probabilities.
 
-![softmax.png](attachment:softmax.png)
+![softmax.png](examples/softmax.png)
 
